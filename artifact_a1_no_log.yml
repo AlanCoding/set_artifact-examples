@@ -1,0 +1,9 @@
+---
+- name: Set a to 1 and disable logging
+  hosts: all
+
+  tasks:
+    - set_artifact:
+        data:
+          a: 1
+      no_log: true

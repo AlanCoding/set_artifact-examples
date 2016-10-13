@@ -1,0 +1,8 @@
+---
+- name: Set a to one in artifact space
+  hosts: all
+
+  tasks:
+    - set_artifact:
+        data:
+          a: 1

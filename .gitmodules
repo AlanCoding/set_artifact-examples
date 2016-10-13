@@ -1,0 +1,3 @@
+[submodule "artifact_repo"]
+	path = artifact_repo
+	url = https://github.com/AlanCoding/Ansible-set_artifact-module.git
